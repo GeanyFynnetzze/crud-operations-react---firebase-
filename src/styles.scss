@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  background: wheat;
+}
+
+section {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2.5rem;
+}
+.object {
+  margin: 3rem 0 0 3rem;
+  width: 50rem;
+  border: 1rem solid black;
+  text-align: center;
+  font-size: 2rem;
+  span {
+    font-weight: bold;
+  }
+  img {
+    width: 100%;
+    padding: 3rem;
+    border-bottom: 0.1rem solid red;
+    border-radius: 30rem;
+  }
+}
